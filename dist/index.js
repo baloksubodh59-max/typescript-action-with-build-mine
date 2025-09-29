@@ -27270,7 +27270,7 @@ async function run() {
         const ms = coreExports.getInput('milliseconds');
         // Debug logs are only output if the `ACTIONS_STEP_DEBUG` secret is true
         coreExports.debug(`Waiting ${ms} milliseconds ...`);
-        coreExports.info('this is info level log, cheers!');
+        coreExports.info('this is info level log, cheers Again!');
         // Log the current timestamp, wait, then log the new timestamp
         coreExports.debug(new Date().toTimeString());
         await wait(parseInt(ms, 10));
